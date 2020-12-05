@@ -1,0 +1,14 @@
+/* theme colors
+#F2EBEC
+#56738C
+#0C0D0B
+#262521
+#735555 */
+
+#home {
+    background: url(../Assets/Images/hero-ducks.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
