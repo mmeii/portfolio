@@ -55,5 +55,12 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 32px;
 }
+
+#contact {
+    background:#F2EBEC;
+    font-size: 20px;
+    color: #56738C;
+}
+
