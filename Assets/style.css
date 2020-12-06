@@ -24,20 +24,36 @@
     background: #F2EBEC;
 }
 
-h1 {
+h2 {
     color: #2182BF;
-}
-
-#homeMiddle h1 {
-    color:#F2EBEC;
+    font-size: 3rem;
 }
 
 #hello {
+    color: #F2EBEC;
     font-size:2rem;
 }
 
 #name {
+    color: #F2EBEC;
     font-size: 6rem;
     text-transform: uppercase;
     text-shadow: 4px 4px #56738C;
+}
+
+#about {
+    background: #56738C;
+    color: #F2D0A7;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+h3 {
+    font-size: 40px;
 }
