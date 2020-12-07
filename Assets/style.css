@@ -119,10 +119,6 @@ h3 {
     text-transform: uppercase;
 }
 
-a {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-
 a:link {
     color: #56738C;
     text-decoration: none;
@@ -141,7 +137,8 @@ a:visited {
     color: #56738C;
 }
 
-p {
+p,
+a {
     font-family: 'Raleway', sans-serif;
 }
 
