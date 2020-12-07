@@ -75,7 +75,7 @@ h2 {
 
 #hello {
     color: #F2EBEC;
-    font-size:2rem;
+    font-family: 'Amatic SC', cursive;
 }
 
 #name {
@@ -83,6 +83,7 @@ h2 {
     font-size: 6rem;
     text-transform: uppercase;
     text-shadow: 4px 4px #56738C;
+    font-family: 'Philosopher', sans-serif;
 }
 
 #about {
@@ -91,7 +92,7 @@ h2 {
 }
 
 #about p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #about img {
@@ -99,18 +100,27 @@ h2 {
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 30px;
+    font-family: 'Volkhov', serif;
 }
 
 #contact {
     background:#56738C;
     font-size: 20px;
-    color: #56738C;
+    color: #343840;
 }
 
 #contact a {
     color: #F2D0A7;
     text-decoration: gray;
+}
+
+#contact a:hover {
+    text-transform: uppercase;
+}
+
+a {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 a:link {
@@ -130,3 +140,8 @@ a:hover {
 a:visited {
     color: #56738C;
 }
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
