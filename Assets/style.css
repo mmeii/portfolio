@@ -15,17 +15,15 @@ nav a:hover {
     font-size: 1.1rem;
 }
 
-.btn,
-.btn-primary {
+.btn {
     background-color: #F2D0A7;
     border: #F2D0A7;
-    color: #56738C;
+    color: #2182BF;
 }
 
-.btn:hover,
-.btn-primary:hover {
-    background-color: #F2D0A7;  
-    color: #56738C;
+.btn:hover {
+    background-color: #2182BF;  
+    color: #2182BF;
 }
 
 #homeMiddle {
@@ -48,9 +46,26 @@ nav a:hover {
 }
 
 #portfolio a:hover {
-    color: #56738C;
+    color: #F2D0A7;
     text-transform: uppercase;
     font-size: 18px;
+}
+
+#portfolio a:link {
+    color: #2182BF;
+}
+
+small {
+    font-style: italic;
+}
+
+.card-title,
+.card-text {
+    padding-left: 1.25rem;
+}
+
+.gitLinks {
+    bottom: 0;
 }
 
 h2 {
