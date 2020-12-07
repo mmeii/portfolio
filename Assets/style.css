@@ -4,6 +4,29 @@
 #0C0D0B
 #262521
 #735555 */
+nav a {
+    background-color: #F2EBEC;
+}
+
+nav a:hover {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #F2D0A7;
+    font-size: 1.1rem;
+}
+
+.btn,
+.btn-primary {
+    background-color: #F2D0A7;
+    border: #F2D0A7;
+    color: #56738C;
+}
+
+.btn:hover,
+.btn-primary:hover {
+    background-color: #F2D0A7;  
+    color: #56738C;
+}
 
 #homeMiddle {
     margin-right: auto;
@@ -22,6 +45,12 @@
 
 #portfolio {
     background: #F2EBEC;
+}
+
+#portfolio a:hover {
+    color: #56738C;
+    text-transform: uppercase;
+    font-size: 18px;
 }
 
 h2 {
@@ -43,7 +72,7 @@ h2 {
 
 #about {
     background: #56738C;
-    color: #F2D0A7;
+    color: #F2EBEC;
 }
 
 #about p {
@@ -59,8 +88,30 @@ h3 {
 }
 
 #contact {
-    background:#F2EBEC;
+    background:#56738C;
     font-size: 20px;
     color: #56738C;
 }
 
+#contact a {
+    color: #F2D0A7;
+    text-decoration: gray;
+}
+
+a:link {
+    color: #56738C;
+    text-decoration: none;
+}
+
+a:active {
+    color: #56738C;
+}
+
+a:hover {
+    color: #F2D0A7;
+    text-size-adjust: 2rem;
+}
+
+a:visited {
+    color: #56738C;
+}
