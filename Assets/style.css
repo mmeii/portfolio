@@ -1,11 +1,9 @@
-/* theme colors
-#F2EBEC
-#56738C
-#0C0D0B
-#262521
-#735555 */
-nav a {
-    background-color: #F2EBEC;
+.navbar, 
+.navbar-expand-sm, 
+.navbar-light,
+.bg-light {
+    color: #F2EBEC!important;
+    background-color: #F2EBEC!important;
 }
 
 nav a:hover {
@@ -26,19 +24,32 @@ nav a:hover {
     color: #2182BF;
 }
 
-#homeMiddle {
-    margin-right: auto;
-    margin-left: 18%;
-    position: absolute;
-    top: 35%;
-}
-
 #home {
     background: url(../Assets/Images/hero-ducks.JPG);
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100vw;
+}
+
+#homeMiddle {
+    margin-right: auto;
+    margin-left: 28%;
+    position: absolute;
+    top: 45%;
+}
+
+#hello {
+    color: #F2EBEC;
+    font-family: 'Amatic SC', cursive;
+}
+
+#name {
+    color: #F2EBEC;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px #56738C;
+    font-family: 'Philosopher', sans-serif;
 }
 
 #portfolio {
@@ -71,20 +82,10 @@ small {
 h2 {
     color: #2182BF;
     font-size: 3rem;
+    font-family: 'Volkhov', serif;
 }
 
-#hello {
-    color: #F2EBEC;
-    font-family: 'Amatic SC', cursive;
-}
 
-#name {
-    color: #F2EBEC;
-    font-size: 6rem;
-    text-transform: uppercase;
-    text-shadow: 4px 4px #56738C;
-    font-family: 'Philosopher', sans-serif;
-}
 
 #about {
     background: #56738C;
